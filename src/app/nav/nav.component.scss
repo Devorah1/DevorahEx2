@@ -1,0 +1,15 @@
+#nav{
+    background-color:rgb(151, 11, 11);
+    width:55px;
+    height: 30px;
+}
+div{
+    margin-right: 1%;
+    display: inline;
+    &:hover{ 
+        opacity: 0.6;
+    }
+    padding: 10px;
+    border: 2px solid rgb(161, 41, 41);
+  
+}

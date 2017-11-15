@@ -1,0 +1,9 @@
+<div id="header">
+    
+    <img src="\assets\londonicon.jpg">
+   
+    <div id="description">London, a great place to visit</div>
+   <div id="nav">
+    <app-nav *ngFor="let item of navService.navItems" [text]="item.text" [routerLink]="item.url"></app-nav>
+   </div>
+</div>
